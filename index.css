@@ -1,0 +1,69 @@
+.up-bar { /*esta classe criar a barra superior*/
+    
+    background-color: #7ea956;
+    
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+body { /*estiliza o fundo e a cor da letra e a fonte*/
+    color: white;
+    background-color: #1f252f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container { /*esta class afasta o texto do body e tudo que estar na div da margem*/
+    padding: 0px 50px;
+}
+
+ul { /*estiliza o conteudo do nav*/
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 15px;
+}
+
+a { /* estiliza o elemento a, o que se referi ao link*/
+    color: white;
+    text-decoration: none
+}
+
+nav a:hover { /*muda acor do item do nav quando passa o mouse em cima*/
+    color: black;
+}
+
+header img { /* estiliza a img que estar em header*/
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 4px solid #7ea956;
+}
+
+footer img { /*estiliza as imgs do footer*/
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    display: flex; /*alinha lado a lado*/
+    justify-content: center; /*Coloca no centro*/
+}
+
+footer a { /*espacamento entre os icones; alinha os icones com o texto*/
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 2px;
+    
+}
+
+.center { /* isto é uma classe para o css que estilizar a classe referenciada do html*/ /* classe center que estar dentro da div no header*/
+    text-align: center;
+    padding: 20px;
+}
