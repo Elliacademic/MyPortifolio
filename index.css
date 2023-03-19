@@ -32,6 +32,11 @@ a { /* estiliza o elemento a, o que se referi ao link*/
     text-decoration: none
 }
 
+p {
+    text-align: left;
+     
+}
+
 nav a:hover { /*muda acor do item do nav quando passa o mouse em cima*/
     color: black;
 }
@@ -66,4 +71,47 @@ footer p {
 .center { /* isto é uma classe para o css que estilizar a classe referenciada do html*/ /* classe center que estar dentro da div no header*/
     text-align: center;
     padding: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    ul { /*estiliza o conteudo do nav*/
+        /*display: flex;*/
+        /*justify-content: space-around;*/
+        list-style-type: none;
+        align-items: center;
+        padding: 15px; 
+    }
+
+    body { /*estiliza o fundo e a cor da letra e a fonte*/
+        color: rgb(255, 255, 255);
+        background-color: #1f252f;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: x-small;
+    }
+
+    header img { /* estiliza a img que estar em header*/
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        border: 4px solid #7ea956;
+    }
+
+    .up-bar { /*esta classe criar a barra superior*/
+    
+        background-color: #7ea956;
+        
+        height: 50px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    ul { /*estiliza o conteudo do nav*/
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        align-items: center;
+        padding: 10px;
+    }
 }
